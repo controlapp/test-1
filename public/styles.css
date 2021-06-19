@@ -1,0 +1,97 @@
+
+body {
+    font-family: "arial";
+}
+
+.sidebar {
+  height: 100%;
+  width: 15%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+.bg-dark
+{
+    background-color: #2A3F54 !important;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #818181;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: #FFF;
+}
+
+.title{
+    color: #FFF;
+    font-size: 20px;
+    text-align: center;
+    padding: 3rem;
+}
+.main {
+  margin-left: 7%; /* Same as the width of the sidenav */
+  padding: 50px 10%;
+}
+
+.active{
+
+  text-decoration: none;
+  font-size: 17px;
+  color: #FFF;
+}
+.active a:hover {
+    color: #818181;
+}
+.pic{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.descripcion{
+    color: #FFF;
+    font-size: 14px;
+}
+
+.footer {
+
+  margin-top: -150px; /* negative value of footer height */
+  height: 50px;
+  clear:both;
+  padding-top:20px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+span{
+    text-align: center;
+}
+h5
+{
+    font-size: 15px !important;
+}
+
+h6
+{
+    font-size: 13px !important;
+}
+
+.image
+{
+    width: 150px; height: 150px;
+}
+.image-grande
+{
+    width: 40%; height: 50%;
+    text-align: center;
+
+}
